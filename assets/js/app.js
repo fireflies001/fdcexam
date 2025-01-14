@@ -60,7 +60,7 @@ function registerUser() {
 
         if(password == confirmpassword) {
             $("#passwordErr").hide();
-            passerr.display = "none"
+            
             $.ajax({
                 type: "POST",
                 url: "./backend/api/registerApi.php",
